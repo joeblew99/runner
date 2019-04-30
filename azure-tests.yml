@@ -18,6 +18,6 @@ steps:
     workingDirectory: "$(modulePath)"
     displayName: "Tests"
   - script: |
-      go build -o $(GOPATH)/bin/runner -v .
-    workingDirectory: '$(modulePath)'
-    displayName: 'Build'
+      go build -o "$(GOPATH)/bin/runner" -v .
+    workingDirectory: "$(modulePath)"
+    displayName: "Build"
