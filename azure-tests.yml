@@ -17,6 +17,7 @@ steps:
       #go test -race ./...
     workingDirectory: "$(modulePath)"
     displayName: "Tests"
-  - script: go build -o $(GOPATH)/bin/runner -v .
+  - script: |
+      go build -o $(GOPATH)/bin/runner -v .
     workingDirectory: '$(modulePath)'
     displayName: 'Build'
