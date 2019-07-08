@@ -139,3 +139,54 @@ enforced.
 `go get [-u -f] github.com/joeblew99/runner`
 
 http://godoc.org/github.com/joeblew99/runner
+
+
+## Azure
+
+Console: https://dev.azure.com/joeblew99/_settings/billing
+
+
+Good examples:
+https://github.com/v2ray/v2ray-core/blob/master/azure-pipelines.yml
+- better way and uses CMD on Windows, so pure.
+
+
+## Visual studio app centre flutter
+
+
+Console: https://appcenter.ms/apps
+
+Test Flutter on real devices and update  the users apps
+
+https://pub.dartlang.org/packages/appcenter
+- not loved
+
+https://www.rocksolidknowledge.com/articles/using-appcenter-for-flutter-projects
+https://github.com/Microsoft/appcenter-build-scripts-examples/tree/master/flutter
+- MS support for FLutter :)
+- The analytics and crash Reporting is using native code, so DONT use it.
+	- Instead use StackDriver or Open Concensus, so the Golang and Flutter code uses the same thing
+
+
+https://github.com/dart-lang/webdev
+- They are using Mono Repo ! https://github.com/dart-lang/mono_repo
+	- With Travis
+	- So i can have many packages in the one repo and easily test them
+
+## Drone
+- For all NON GUI stuff
+
+## Beehive
+https://github.com/muesli/beehive
+- simple and user configurable
+
+## Bitraft - redis replacement
+
+
+
+https://github.com/prologic/bitraft
+- Redis replacement with Raft for distribution
+- uses https://github.com/prologic/bitcask
+	- LSM and WAL 
+
+
