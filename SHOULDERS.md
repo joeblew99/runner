@@ -4,6 +4,8 @@ github.com/joeblew99/runner does not try to reinvent the wheel! Instead, it uses
 
 Thank you to the following **GIANTS**:
 
+* https://github.com/cirello-io/oversight
+
 
 * [github.com/buildkite/terminal-to-html](https://godoc.org/github.com/buildkite/terminal-to-html)
 
